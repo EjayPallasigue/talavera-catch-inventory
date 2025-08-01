@@ -8,53 +8,76 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* NC Talavera Seafoods Brand Colors */
+    /* THEME 1: Deep Ocean (Default) */
     --background: 210 15% 97%;
     --foreground: 220 50% 15%;
-
     --card: 0 0% 100%;
     --card-foreground: 220 50% 15%;
-
     --popover: 0 0% 100%;
     --popover-foreground: 220 50% 15%;
-
-    /* Deep Ocean Blue - Primary Brand Color */
     --primary: 220 85% 25%;
     --primary-foreground: 0 0% 100%;
     --primary-glow: 220 75% 35%;
-
-    /* Light Ocean Blue - Secondary */
     --secondary: 200 85% 85%;
     --secondary-foreground: 220 85% 25%;
-
-    /* Subtle Ocean Mist */
     --muted: 210 40% 94%;
     --muted-foreground: 220 25% 50%;
-
-    /* Cyan Wave Accent */
     --accent: 185 100% 70%;
     --accent-foreground: 220 85% 25%;
-
-    /* Coral/Warning */
     --destructive: 10 75% 55%;
     --destructive-foreground: 0 0% 100%;
-
-    /* Soft Ocean Borders */
     --border: 210 30% 88%;
     --input: 210 30% 94%;
     --ring: 220 85% 25%;
+  }
 
-    /* Maritime Gradients */
-    --gradient-ocean: linear-gradient(135deg, hsl(220 85% 25%), hsl(200 85% 45%));
-    --gradient-wave: linear-gradient(90deg, hsl(185 100% 70%), hsl(200 85% 75%));
-    --gradient-seafoam: linear-gradient(180deg, hsl(210 40% 98%), hsl(200 30% 92%));
+  .theme-coral {
+    /* THEME 2: Coral Reef */
+    --background: 25 20% 97%;
+    --foreground: 15 40% 20%;
+    --card: 0 0% 100%;
+    --card-foreground: 15 40% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 15 40% 20%;
+    --primary: 15 75% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 25 65% 55%;
+    --secondary: 35 60% 85%;
+    --secondary-foreground: 15 75% 25%;
+    --muted: 25 30% 94%;
+    --muted-foreground: 15 25% 50%;
+    --accent: 185 80% 65%;
+    --accent-foreground: 15 75% 25%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 25 25% 88%;
+    --input: 25 25% 94%;
+    --ring: 15 75% 45%;
+  }
 
-    /* Ocean Shadows */
-    --shadow-ocean: 0 10px 30px -5px hsl(220 85% 25% / 0.3);
-    --shadow-wave: 0 4px 20px -2px hsl(185 100% 70% / 0.4);
-
-    /* Smooth Transitions */
-    --transition-wave: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  .theme-professional {
+    /* THEME 3: Professional Deep Sea */
+    --background: 210 20% 95%;
+    --foreground: 210 40% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 40% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 40% 15%;
+    --primary: 210 100% 15%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 210 80% 25%;
+    --secondary: 210 40% 85%;
+    --secondary-foreground: 210 100% 15%;
+    --muted: 210 30% 92%;
+    --muted-foreground: 210 20% 45%;
+    --accent: 160 70% 50%;
+    --accent-foreground: 210 100% 15%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 210 20% 85%;
+    --input: 210 20% 90%;
+    --ring: 210 100% 15%;
+  }
 
     --radius: 0.5rem;
 

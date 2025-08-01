@@ -1,7 +1,7 @@
-import { InventoryDashboard } from "@/components/inventory/InventoryDashboard";
+import { DesignSelector } from "@/components/inventory/DesignSelector";
 
 const Index = () => {
-  return <InventoryDashboard />;
+  return <DesignSelector />;
 };
 
 export default Index;

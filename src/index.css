@@ -8,33 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* NC Talavera Seafoods Brand Colors */
+    --background: 210 15% 97%;
+    --foreground: 220 50% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 220 50% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 50% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Deep Ocean Blue - Primary Brand Color */
+    --primary: 220 85% 25%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 220 75% 35%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Light Ocean Blue - Secondary */
+    --secondary: 200 85% 85%;
+    --secondary-foreground: 220 85% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Subtle Ocean Mist */
+    --muted: 210 40% 94%;
+    --muted-foreground: 220 25% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Cyan Wave Accent */
+    --accent: 185 100% 70%;
+    --accent-foreground: 220 85% 25%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Coral/Warning */
+    --destructive: 10 75% 55%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Soft Ocean Borders */
+    --border: 210 30% 88%;
+    --input: 210 30% 94%;
+    --ring: 220 85% 25%;
+
+    /* Maritime Gradients */
+    --gradient-ocean: linear-gradient(135deg, hsl(220 85% 25%), hsl(200 85% 45%));
+    --gradient-wave: linear-gradient(90deg, hsl(185 100% 70%), hsl(200 85% 75%));
+    --gradient-seafoam: linear-gradient(180deg, hsl(210 40% 98%), hsl(200 30% 92%));
+
+    /* Ocean Shadows */
+    --shadow-ocean: 0 10px 30px -5px hsl(220 85% 25% / 0.3);
+    --shadow-wave: 0 4px 20px -2px hsl(185 100% 70% / 0.4);
+
+    /* Smooth Transitions */
+    --transition-wave: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
